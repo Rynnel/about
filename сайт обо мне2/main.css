@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Montserrat-LightItalic;
+    src: url(Montserrat-LightItalic.ttf);
+}
+body {
+    background-color: gray;
+    font-family: Montserrat-LightItalic;
+    overflow-x: hidden;
+    background: url(1.jpg);
+    
+}
+.main {
+    padding: 50px;
+    background: rgb(36, 46, 90);
+    max-width: 500px;
+    min-width: 190px;
+    margin: 10px 50px;
+    border-radius: 5%;
+    box-shadow: 0 5px 15px black;
+    float: left;
+}
+.title {
+    text-align: center;
+    color: rgb(255, 221, 128);
+}
+.vk {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 10px 15px;
+    transition: 0.5s;
+    margin: 10px;
+    border-radius: 25%;
+}
+.vk:hover {
+    background-color: black;
+}
+p {
+    color: white;
+    text-align: center;
+}
+.info {
+    margin: auto;
+    max-width: 300px;
+}
+.txt {
+    text-align: center;
+}
+.me {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.main2 {
+    padding: 50px;
+    background: rgb(36, 46, 90);
+    max-width: 500px;
+    min-width: 190px;
+    margin: 10px 50px;
+    border-radius: 5%;
+    box-shadow: 0 5px 15px black;
+    float: left;
+}
+.hobby {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.tae {
+    max-width: 450px;
+    min-width: 190px;
+    margin: auto;
+}
+.txttae {
+    color: white;
+    text-align: center;
+}
+.art {
+    display: block;
+    margin-right: 50px;
+    width: 100%;
+    transition: 0.5s;
+}
+.art:hover {
+    transform: scale(1.1);
+}
+.main3 {
+    padding: 50px;
+    background: rgb(36, 46, 90);
+    max-width: 455px;
+    min-width: 190px;
+    margin: 10px 50px;
+    border-radius: 5%;
+    box-shadow: 0 5px 15px black;
+    float: left;
+}
+img {
+    transition: 0.5s;
+}
+img:hover {
+    transform: scale(1.05);
+}
