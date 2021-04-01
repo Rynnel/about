@@ -12,41 +12,40 @@ body {
 }
 .all {
     width: 100%;
-    max-width: 1900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .main {
-    padding: 50px;
+    padding: 30px;
     background: rgb(36, 46, 90);
     width: 33,33333333333333%;
     margin: 10px 10px;
     border-radius: 10px;
     box-shadow: 0 5px 15px black;
-    float: left;
 }
 .main2 {
-    padding: 50px;
+    padding: 30px;
     background: rgb(36, 46, 90);
     width: 33,33333333333333%;
     margin: 10px 10px;
     border-radius: 10px;
     box-shadow: 0 5px 15px black;
-    float: left;
 }
 .main3 {
-    padding: 50px;
+    padding: 30px;
     background: rgb(36, 46, 90);
     width: 33,33333333333333%;
     margin: 10px 10px;
     border-radius: 10px;
     box-shadow: 0 5px 15px black;
-    float: left;
 }
 img {
+    display: block;
     transition: 0.5s;
     width: 100%;
-    max-width: 450px;
+    max-width: 700px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 img:hover {
     transform: scale(1.05);
@@ -74,15 +73,14 @@ p {
 .info {
     margin: auto;
     width: 100%;
-    max-width: 450px;
+    max-width: 700px;
 }
 
 .tae {
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
 }
 .txttae {
     color: white;
 }
-
