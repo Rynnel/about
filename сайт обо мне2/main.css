@@ -7,17 +7,49 @@ body {
     font-family: Montserrat-LightItalic;
     overflow-x: hidden;
     background: url(1.jpg);
+    line-height: 1.5;
     
+}
+.all {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .main {
     padding: 50px;
     background: rgb(36, 46, 90);
-    max-width: 500px;
-    min-width: 203px;
-    margin: 10px 50px;
-    border-radius: 5%;
+    width: 33,33333333333333%;
+    margin: 10px 10px;
+    border-radius: 10px;
     box-shadow: 0 5px 15px black;
     float: left;
+}
+.main2 {
+    padding: 50px;
+    background: rgb(36, 46, 90);
+    width: 33,33333333333333%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    float: left;
+}
+.main3 {
+    padding: 50px;
+    background: rgb(36, 46, 90);
+    width: 33,33333333333333%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    float: left;
+}
+img {
+    transition: 0.5s;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+img:hover {
+    transform: scale(1.05);
 }
 .title {
     text-align: center;
@@ -41,64 +73,15 @@ p {
 }
 .info {
     margin: auto;
-    max-width: 300px;
-}
-.txt {
-    text-align: center;
-}
-.me {
-    display: block;
-    margin: auto;
     width: 100%;
-    border-radius: 10px;
-}
-.main2 {
-    padding: 50px;
-    background: rgb(36, 46, 90);
-    max-width: 500px;
-    min-width: 190px;
-    margin: 10px 50px;
-    border-radius: 5%;
-    box-shadow: 0 5px 15px black;
-    float: left;
-}
-.hobby {
-    display: block;
-    margin: auto;
-    width: 100%;
-    border-radius: 10px;
-}
-.tae {
     max-width: 450px;
-    min-width: 190px;
+}
+
+.tae {
+    width: 100%;
+    max-width: 500px;
     margin: auto;
 }
 .txttae {
     color: white;
-    text-align: center;
-}
-.art {
-    display: block;
-    margin-right: 50px;
-    width: 100%;
-    transition: 0.5s;
-}
-.art:hover {
-    transform: scale(1.1);
-}
-.main3 {
-    padding: 50px;
-    background: rgb(36, 46, 90);
-    max-width: 455px;
-    min-width: 203px;
-    margin: 10px 50px;
-    border-radius: 5%;
-    box-shadow: 0 5px 15px black;
-    float: left;
-}
-img {
-    transition: 0.5s;
-}
-img:hover {
-    transform: scale(1.05);
 }
